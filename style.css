@@ -1,0 +1,25 @@
+.header-container {
+    background-color: #120323;
+    color: white;
+    padding: 20px;
+}
+
+h2 {
+    color: #120323;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+aside {
+    background-color: #97bf04;
+    padding: 20px;
+    float: right;
+}
+
+footer {
+    background-color: #d9043d;
+    padding: 10px;
+    text-align: center;
+}
