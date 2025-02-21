@@ -1,3 +1,6 @@
+:root {
+    font-size: 0.9em;
+}
 .header-container {
     background-color: #120323;
     color: #97bf04;
@@ -11,6 +14,7 @@ h2 {
 body {
     font-family: sans-serif;
     margin: 0;
+    font-weight: 300;
 }
 
 figure img {
@@ -26,7 +30,7 @@ aside {
 
 footer {
     background-color: #d9043d;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     color: white;
 }
@@ -86,8 +90,10 @@ footer {
     }
     #container {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         gap: 20px;
+        align-items: flex-start;
     }
     main {
         flex: 1;
@@ -95,7 +101,9 @@ footer {
     figure {
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
+        margin: 30px;
+        padding: 10px;
     }
     figcaption {
         display: flex;
@@ -104,10 +112,13 @@ footer {
     }
     img {
         max-width: 300px;
+        height: auto;
     }
-
+    h2 {
+        margin-top: 0;
+    }
     aside {
         width: 300px;
-        margin: 20px;
+        margin-top: 20px;
     }
 }
