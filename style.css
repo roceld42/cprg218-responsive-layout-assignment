@@ -65,6 +65,7 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
+        padding: 10px;
     }
     figcaption {
         display: flex;
